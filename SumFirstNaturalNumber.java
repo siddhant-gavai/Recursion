@@ -4,8 +4,8 @@ public class SumFirstNaturalNumber {
         if (n == 1) {
             return 1;
         }
-        int fnm1 = sum(n - 1);
-        int sum = n + fnm1;
+        int snm1 = sum(n - 1);
+        int sum = n + snm1;
         return sum;
     }
 
